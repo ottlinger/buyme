@@ -14,11 +14,8 @@
     },
     "autoload": {
         "psr-0": {
-            "mailform": "src/"
-        },
-        "files": [
-            "config/config.php"
-        ]
+            "buyme": "src/"
+        }
     },
     "require-dev": {
         "phpunit/phpunit": "^8",
