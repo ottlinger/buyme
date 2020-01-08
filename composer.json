@@ -1,0 +1,27 @@
+{
+    "name": "ottlinger/buyme",
+    "description": "Homepage to offer selling of the underlying domain with contact information.",
+    "type": "application",
+    "license": "GNU General Public License v3.0",
+    "authors": [
+        {
+            "name": "Hugo Hirsch",
+            "email": "github@hugo-hirsch.de"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "mailform": "src/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8",
+        "squizlabs/php_codesniffer": "3.*"
+    }
+}
