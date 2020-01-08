@@ -1,0 +1,9 @@
+*.cache
+composer.phar
+.idea
+*.iml
+coverage.xml
+testdox.html
+testdox.txt
+vendor
+
