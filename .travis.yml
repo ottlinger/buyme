@@ -3,6 +3,7 @@ dist: xenial
 php:
   - '7.2.19'
   - '7.3.6'
+  - '7.4.2'
 # 201902213
 # PHP8.0.0-dev does not work with current dependencies
 #  - nightly
