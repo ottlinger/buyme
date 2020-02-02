@@ -8,3 +8,9 @@ Homepage to offer selling of the underlying domain with contact information.
 [![codecov](https://codecov.io/gh/ottlinger/buyme/branch/master/graph/badge.svg)](https://codecov.io/gh/ottlinger/buyme)
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/07b670b13aa944a789f40bbdf297b337)](https://www.codacy.com/app/github_25/buyme?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ottlinger/buyme&amp;utm_campaign=Badge_Grade)
+
+## Docker
+
+If you start the application with the deliverd docker-compose file will yield a running instance at
+
+http://localhost:8888
