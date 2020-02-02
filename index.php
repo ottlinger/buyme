@@ -4,6 +4,7 @@
 <body>
 <?php
 
+echo date("Y-m-d");
 
 ?>
 </body>
