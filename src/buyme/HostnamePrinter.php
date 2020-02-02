@@ -5,5 +5,8 @@ namespace hornherzogen;
 
 class HostnamePrinter
 {
-
+	public function print()
+	{
+		echo "Hi";
+	}
 ?>
