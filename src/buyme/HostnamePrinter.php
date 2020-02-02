@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace hornherzogen;
+namespace buyme;
 
 class HostnamePrinter
 {
 	public function print()
 	{
-		echo "Hi";
+		return "Hi";
 	}
-?>
+}
