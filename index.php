@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>BuyMe</title>
+<title>BuyMe dynamic</title>
 </head>
 <body>
 <h1>Welcome to my dynamic page</h1>
