@@ -17,4 +17,10 @@ final class HostnamePrinterTest extends TestCase
         $printer = new HostnamePrinter();
         $this->assertIsString($printer->time());
     }
+
+    public function testMailLinkWithParam()
+    {
+        $printer = new HostnamePrinter();
+        $this->assertStringContainsString('mytestlink', $printer->mailLink('mytestlink'));
+    }
 }
