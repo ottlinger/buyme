@@ -1,17 +1,22 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>BuyMe dynamic</title>
+    <title>BuyMe dynamic</title>
 </head>
 <body>
 <h1>This domain is for sale</h1>
 <h1>Diese Domain steht zum Verkauf</h1>
 <?php
+require 'vendor/autoload.php';
 
-echo "Time: ".date("Y-m-d H:i:s");
-$server = $_SERVER['SERVER_NAME'];
-echo "<br/>Servername: ".$server;
-echo '<br/>Contact: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;'.$server.'">'.$server.'</a>';
+use buyme\HostnamePrinter;
+
+$hostnamePrinter = new HostnamePrinter();
+
+echo "Time: " . $hostnamePrinter->time();
+
+echo '<br/>Servername: ' . $hostnamePrinter->hostname();
+echo '<br/>Contact: ' . $hostnamePrinter->maillink();
 ?>
 </body>
 </html>
