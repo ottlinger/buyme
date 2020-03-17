@@ -24,9 +24,12 @@ final class HostnamePrinterTest extends TestCase
         $this->assertStringContainsString('mytestlink', $printer->mailLink('mytestlink'));
     }
 
-    public function testMailLinkWithoutParam()
+    public function testMailLinkWithoutParamAndCompletenessOfLink()
     {
+        $_SERVER['SERVER_NAME'] = "myserver.is";
         $printer = new HostnamePrinter();
-        $this->assertIsString($printer->mailLink());
+        $link = $printer->mailLink();
+
+        $this->assertStringContainsString("myserver.is\">myserver.is<", $link);
     }
 }
