@@ -4,7 +4,7 @@
 <title>BuyMe dynamic</title>
 </head>
 <body>
-<h1>Welcome to my dynamic page</h1>
+<h1>This domain is for sale</h1>
 <?php
 
 echo "Time: ".date("Y-m-d H:i:s");
