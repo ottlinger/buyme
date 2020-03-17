@@ -11,4 +11,11 @@ final class HostnamePrinterTest extends TestCase
         $printer = new HostnamePrinter();
         $this->assertEquals('localhorst', $printer->hostname());
     }
+
+    public function testTimestampGeneration()
+    {
+        $printer = new HostnamePrinter();
+        $this->assertIsString($printer->time());
+
+    }
 }
