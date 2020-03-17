@@ -1,12 +1,11 @@
+<!DOCTYPE HTML>
+<html>
 <?php
 require 'vendor/autoload.php';
 
 use buyme\HostnamePrinter;
 
 $hostnamePrinter = new HostnamePrinter();
-
-echo "<!DOCTYPE HTML>\n<html>";
-echo "Time: " . $hostnamePrinter->time();
 
 echo '<br/>Servername: ' . $hostnamePrinter->hostname();
 echo '<br/>Contact: ' . $hostnamePrinter->maillink();
@@ -16,6 +15,11 @@ echo '<br/>Contact: ' . $hostnamePrinter->maillink();
 </head>
 <body>
 <h1>The domain <i><?php echo $hostnamePrinter->hostname(); ?></i> is for sale</h1>
-<h1>Diese Domain <?php echo $hostnamePrinter->hostname(); ?> steht zum Verkauf</h1>
+<h1>Die Domain <i><?php echo $hostnamePrinter->hostname(); ?></i> steht zum Verkauf</h1>
+<img src="https://picsum.photos/200/300" alt="Just a picture">
+<hr/>
+<?php
+echo 'Delivered at ' . $hostnamePrinter->time() . ' by <a href="https://github.com/ottlinger/buyme">BuyMe</a>';
+?>
 </body>
 </html>
