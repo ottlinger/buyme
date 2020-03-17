@@ -5,6 +5,7 @@
 </head>
 <body>
 <h1>This domain is for sale</h1>
+<h1>Diese Domain steht zum Verkauf</h1>
 <?php
 
 echo "Time: ".date("Y-m-d H:i:s");
