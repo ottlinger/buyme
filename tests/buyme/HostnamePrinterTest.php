@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 final class HostnamePrinterTest extends TestCase
 {
-    public function testFirstMethodCall()
+    public function testHostnameExtraction()
     {
         $printer = new HostnamePrinter();
         $this->assertEquals('localhorst', $printer->hostname());
