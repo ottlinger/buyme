@@ -7,6 +7,7 @@ use buyme\HostnamePrinter;
 
 $hostnamePrinter = new HostnamePrinter();
 ?>
+<meta charset="utf-8">
 <head>
     <title><?php echo $hostnamePrinter->hostname(); ?> &mdash; powered by BuyMe</title>
 </head>
