@@ -9,6 +9,6 @@ final class HostnamePrinterTest extends TestCase
     public function testFirstMethodCall()
     {
         $printer = new HostnamePrinter();
-        $this->assertEquals('Hi', $printer->print());
+        $this->assertEquals('localhorst', $printer->hostname());
     }
 }

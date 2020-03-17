@@ -5,8 +5,8 @@ namespace buyme;
 
 class HostnamePrinter
 {
-	public function print()
+	public function hostname()
 	{
-		return "Hi";
+		return $_SERVER['SERVER_NAME'] ?? 'localhorst';
 	}
 }
