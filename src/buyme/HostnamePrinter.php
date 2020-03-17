@@ -5,7 +5,7 @@ namespace buyme;
 
 class HostnamePrinter
 {
-    public function maillink($linkText)
+    public function mailLink($linkText)
     {
         $serverName = $this->hostname();
         return '<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#117;&#121;&#109;&#101;&#64;' . $serverName . '">' . ($linkText ?? $serverName) . '</a>';

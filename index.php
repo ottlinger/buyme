@@ -15,7 +15,7 @@ $hostnamePrinter = new HostnamePrinter();
 <h1>Die Domain <i><?php echo $hostnamePrinter->hostname(); ?></i> steht zum Verkauf</h1>
 <img src="https://picsum.photos/200/300" alt="Just a picture">
 <h2>Get in touch with us / bitte kontaktieren Sie uns</h2>
-<p>via <?php echo $hostnamePrinter->maillink('E-Mail') ?></p>
+<p>via <?php echo $hostnamePrinter->mailLink('E-Mail') ?></p>
 <hr/>
 <?php
 echo 'Delivered at ' . $hostnamePrinter->time() . ' by <a href="https://github.com/ottlinger/buyme" target="_blank">BuyMe</a>';

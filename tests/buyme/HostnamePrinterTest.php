@@ -16,6 +16,5 @@ final class HostnamePrinterTest extends TestCase
     {
         $printer = new HostnamePrinter();
         $this->assertIsString($printer->time());
-
     }
 }
