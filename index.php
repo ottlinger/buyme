@@ -14,7 +14,7 @@ $hostnamePrinter = new HostnamePrinter();
 <body>
 <h1>The domain <i><?php echo $hostnamePrinter->hostname(); ?></i> is for sale :-)</h1>
 <h1>Die Domain <i><?php echo $hostnamePrinter->hostname(); ?></i> steht zum Verkauf</h1>
-<img src="https://picsum.photos/200/300" alt="Just a picture">
+<img src="https://picsum.photos/200/300.webp" alt="Just a picture">
 <h2>Get in touch with us / bitte kontaktieren Sie uns</h2>
 <p>via <?php echo $hostnamePrinter->mailLink('E-Mail') ?></p>
 <hr/>
