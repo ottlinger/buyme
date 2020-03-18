@@ -19,7 +19,7 @@ $hostnamePrinter = new HostnamePrinter();
 <p>via <?php echo $hostnamePrinter->mailLink('E-Mail') ?></p>
 <hr/>
 <?php
-echo 'Delivered at ' . $hostnamePrinter->time() . ' by <a href="https://github.com/ottlinger/buyme" target="_blank">BuyMe</a>';
+echo '<pre>Delivered at ' . $hostnamePrinter->time() . ' &mdash; Page powered by <a href="https://github.com/ottlinger/buyme" target="_blank">ProjectBM</a></pre>';
 ?>
 </body>
 </html>
