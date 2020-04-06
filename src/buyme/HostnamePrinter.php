@@ -13,7 +13,14 @@ class HostnamePrinter
 
     public function hostname()
     {
-        return trim($_SERVER['SERVER_NAME'] ?? '             localhorst');
+        return $this->filterHostname($_SERVER['SERVER_NAME'] ?? '             http://www.localhorst');
+    }
+
+    private function filterHostname($hostname)
+    {
+        $stopWords = array('https://', 'http://', 'www.');
+        // $bodytag = str_replace("%body%", "black", "<body text='%body%'>");
+        return trim(str_replace($stopWords, '', $hostname));
     }
 
     public function time()
