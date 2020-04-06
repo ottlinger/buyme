@@ -13,7 +13,7 @@ class HostnamePrinter
 
     public function hostname()
     {
-        return $_SERVER['SERVER_NAME'] ?? 'localhorst';
+        return trim($_SERVER['SERVER_NAME'] ?? '             localhorst');
     }
 
     public function time()
