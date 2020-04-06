@@ -19,7 +19,6 @@ class HostnamePrinter
     private function filterHostname($hostname)
     {
         $stopWords = array('https://', 'http://', 'www.');
-        // $bodytag = str_replace("%body%", "black", "<body text='%body%'>");
         return trim(str_replace($stopWords, '', $hostname));
     }
 
