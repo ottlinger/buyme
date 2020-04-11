@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="de">
 <?php
 require 'vendor/autoload.php';
 
