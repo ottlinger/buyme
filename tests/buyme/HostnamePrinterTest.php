@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 use buyme\HostnamePrinter;
@@ -26,10 +27,10 @@ final class HostnamePrinterTest extends TestCase
 
     public function testMailLinkWithoutParamAndCompletenessOfLink()
     {
-        $_SERVER['SERVER_NAME'] = "myserver.is";
+        $_SERVER['SERVER_NAME'] = 'myserver.is';
         $printer = new HostnamePrinter();
         $link = $printer->mailLink();
 
-        $this->assertStringContainsString("myserver.is\">myserver.is<", $link);
+        $this->assertStringContainsString('myserver.is">myserver.is<', $link);
     }
 }
