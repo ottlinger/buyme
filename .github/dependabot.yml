@@ -9,6 +9,4 @@ updates:
   ignore:
   - dependency-name: phpunit/phpunit
     versions:
-    - 9.5.1
-    - 9.5.2
-    - 9.5.3
+    - 9.6.11
