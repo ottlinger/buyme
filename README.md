@@ -7,7 +7,7 @@ Homepage to offer selling of the underlying domain with contact information.
 
 [![codecov](https://codecov.io/gh/ottlinger/buyme/branch/master/graph/badge.svg)](https://codecov.io/gh/ottlinger/buyme)
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/07b670b13aa944a789f40bbdf297b337)](https://www.codacy.com/app/github_25/buyme?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ottlinger/buyme&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/c632a2612de3411293f95e1bc336bb95)](https://app.codacy.com/gh/ottlinger/buyme/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 ## Docker
 
