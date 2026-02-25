@@ -3,7 +3,7 @@ Homepage to offer selling of the underlying domain with contact information.
 
 [![GPL v3.0](https://img.shields.io/github/license/ottlinger/buyme.svg)](https://www.gnu.org/licenses/gpl.html)
 
-[![Build Status](https://travis-ci.org/ottlinger/buyme.svg?branch=master)](https://travis-ci.org/ottlinger/buyme)
+[![GitHub Action master branch status](https://github.com/ottlinger/buyme/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ottlinger/buyme/actions)
 
 [![codecov](https://codecov.io/gh/ottlinger/buyme/branch/master/graph/badge.svg)](https://codecov.io/gh/ottlinger/buyme)
 
