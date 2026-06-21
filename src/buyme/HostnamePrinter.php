@@ -6,26 +6,26 @@ namespace buyme;
 
 class HostnamePrinter
 {
-    public function mailLink($linkText = null)
+    public function mailLink($linkText = null): string
     {
         $serverName = $this->hostname();
 
         return '<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#117;&#121;&#109;&#101;&#64;'.$serverName.'">'.($linkText ?? $serverName).'</a>';
     }
 
-    public function hostname()
+    public function hostname(): string
     {
         return $this->filterHostname($_SERVER['SERVER_NAME'] ?? '             http://www.localhorst');
     }
 
-    private function filterHostname($hostname)
+    private function filterHostname($hostname): string
     {
         $stopWords = ['https://', 'http://', 'www.'];
 
         return trim(str_replace($stopWords, '', $hostname));
     }
 
-    public function time()
+    public function time(): string
     {
         return date('Y-m-d H:i:s');
     }

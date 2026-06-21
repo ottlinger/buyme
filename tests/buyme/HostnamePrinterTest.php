@@ -2,7 +2,8 @@
 
 declare(strict_types=1);
 
-use buyme\HostnamePrinter;
+namespace buyme;
+
 use PHPUnit\Framework\TestCase;
 
 final class HostnamePrinterTest extends TestCase
